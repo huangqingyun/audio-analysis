@@ -1,0 +1,15 @@
+[package]
+name = "analysis-of-audio-signals"
+version = "0.1.0"
+edition = "2024"
+description = "语音信号分析"
+authors = ["qingyun huang <qyhuang2020@163.com>"]
+
+
+[dependencies]
+rustfft = "6.4.0"
+thiserror = "2.0.12"
+
+[dev-dependencies]
+hound = "3.5.1"
+plotters = "0.3.7"
